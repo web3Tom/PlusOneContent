@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'TenorSans';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/TenorSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'tanaegean';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/tanAegean.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+html {
+	background-color: white;
+}
+
+body {
+	font-family: 'OpenSans-Regular';
+}
