@@ -20,6 +20,7 @@
 		</div>
 	</div>
 
+	<!-- main component -->
 	<div class="mb-36 mt-10 flex items-center justify-center gap-x-10">
 		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
 			><path
@@ -63,10 +64,8 @@
 				Additional Hours of<br />On-site Shooting
 			</h2>
 			<p class="max-w-md text-left">
-				You spent all this time planning your wedding, I want to make sure you enjoy every minute of
-				it. With this service, I can take over your phone and/or social accounts and post live
-				updates on your behalf throughout the day so you can be completely unplugged and living in
-				the moment!
+				Not sure if my packages have the amount of coverage your looking for? Add on additional
+				hours to any service!
 			</p>
 		</div>
 		<div class="w-[25%] flex-col items-center justify-start">
@@ -77,10 +76,8 @@
 				Additional Wedding<br />Event Coverage
 			</h2>
 			<p class="max-w-md text-left">
-				You spent all this time planning your wedding, I want to make sure you enjoy every minute of
-				it. With this service, I can take over your phone and/or social accounts and post live
-				updates on your behalf throughout the day so you can be completely unplugged and living in
-				the moment!
+				Looking for content coverage for more of your wedding events? We customizable packages for
+				all events including Bridal Showers, Rehearsal Dinners, After parties, and more!
 			</p>
 		</div>
 	</div>

@@ -5,7 +5,8 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: '#F8F0DE',
-				secondary: '#50402f'
+				secondary: '#50402f',
+				tertiary: '#bd5f22'
 			},
 			fontFamily: {
 				tenorsans: ['TenorSans', 'sans-serif'],
