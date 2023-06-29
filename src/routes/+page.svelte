@@ -1,10 +1,11 @@
 <script>
 	import heroImg from '$lib/assets/images/assetImg_1.1_hero-backyard-zoom.jpg';
-	import aboutImg from '$lib/assets/images/assetImg_1.2_about-bg-section.png';
 	import Icon from '@iconify/svelte';
 	import WeddingPackages from '../components/weddingPackages.svelte';
 	import AboutMe from '../components/aboutMe.svelte';
 	import AlaCarteServices from '../components/alaCarteServices.svelte';
+	import QuoteComponent from '../components/quoteComponent.svelte';
+	import SeeThroughLens from '../components/seeThroughLens.svelte';
 </script>
 
 <div class="relative flex h-[85vh] w-full items-center justify-center">
@@ -35,4 +36,6 @@
 
 <AboutMe />
 <WeddingPackages />
+<QuoteComponent />
 <AlaCarteServices />
+<SeeThroughLens />

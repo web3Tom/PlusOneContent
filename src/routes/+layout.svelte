@@ -5,12 +5,12 @@
 
 <!-- Navbar -->
 <div
-	class="fixed left-0 top-0 flex w-full content-center justify-between border-2 border-dashed border-red-600 bg-transparent px-16 py-2"
+	class="fixed left-0 top-0 flex w-full content-center justify-between bg-transparent px-16 py-2"
 >
 	<div class="">
 		<img src={logo} alt="PlusOneContent Logo" class="h-16" />
 	</div>
-	<div class="color flex w-auto items-center border-2 border-dashed border-red-600 text-white">
+	<div class="color flex w-auto items-center text-white">
 		<nav class="mr-28 flex items-center">
 			<ul class="flex gap-8">
 				<li>Home</li>
