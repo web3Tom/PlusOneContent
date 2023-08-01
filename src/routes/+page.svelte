@@ -8,24 +8,29 @@
 	import SeeThroughLens from '../components/seeThroughLens.svelte';
 </script>
 
-<div class="relative flex h-[85vh] w-full items-center justify-center">
+<div class="relative w-screen">
 	<img
 		src={heroImg}
 		title="Bridal detail shot wedding content"
 		alt="Wedding Content creator in New Jersey; bridal shower detail shot. European love affair. Italian bridal theme. Lingerie display."
 		class="absolute inset-0 -z-10 h-full w-full object-cover brightness-[.65]"
 	/>
-	<main class="flex-col items-center justify-start">
-		<h1 class="pb-4 text-center font-tanaegean text-7xl text-primary">Plus One Content</h1>
-		<h2 class="text-center font-sans text-4xl text-primary">Your Favorite Plus One</h2>
-		<!-- Span: Wedding & Event Content Creation Scroll with "Your Favorite Plust One" -->
-		<button
-			class="mx-auto mt-32 flex border border-primary bg-transparent px-4 py-3 text-center font-tenorsans text-lg text-primary hover:bg-primary hover:text-black"
-			>Book A Consultation</button
-		>
+	<main class="xl:pb-52 xl:pt-56">
+		<h1 class="mx-auto text-center font-tanaegean text-primary xl:pb-4 xl:text-7xl">
+			Plus One Content
+		</h1>
+		<h3 class="mx-auto text-center font-sans text-primary xl:text-4xl">Your Favorite Plus One</h3>
+		<!-- CTA Container -->
+		<div class="mx-auto flex w-full max-w-3xl justify-evenly xl:mt-32">
+			<button
+				class="rounded-xl border-2 border-white bg-black px-4 py-2 text-center text-white transition-all duration-300 ease-in-out hover:border-black hover:bg-white hover:text-black lg:px-4 lg:py-3 xl:text-lg"
+			>
+				<a href={null} class="">Book A Consultation</a>
+			</button>
+		</div>
 	</main>
 	<div
-		class="via- absolute bottom-0 h-[10vh] w-[100vw] bg-gradient-to-b from-transparent via-white/25 via-50% to-white"
+		class="absolute bottom-0 h-[10%] w-full bg-gradient-to-b from-transparent via-white/25 via-50% to-white"
 	/>
 </div>
 

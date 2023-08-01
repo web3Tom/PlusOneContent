@@ -29,4 +29,6 @@ html {
 
 body {
 	font-family: 'OpenSans-Regular';
+	box-sizing: border-box;
+	overflow-x: hidden;
 }
