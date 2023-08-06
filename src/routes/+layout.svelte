@@ -20,50 +20,54 @@
 
 <!-- Navbar -->
 <div
-	class={`fixed left-0 top-0 z-10 w-screen py-2 transition-all duration-300 ease-in-out ${
-		scrolled ? `bg-white shadow-md` : `bg-transparent`
-	}`}
+	class="fixed left-0 top-0 z-10 w-screen bg-primary py-2 transition-all duration-300 ease-in-out"
 >
 	<nav class="mx-auto flex content-center justify-between xl:w-[1200px]">
 		<!-- LOGO -->
 		<div class="">
-			<img src={`${scrolled ? altLogo : logo}`} alt="PlusOneContent Logo" class="h-16" />
+			<img src={altLogo} alt="PlusOneContent Logo" class="h-16" />
 		</div>
 		<!-- NAV LINKS -->
 		<div class="flex w-auto items-center">
-			<div class="mr-28 flex items-center transition-all duration-300 ease-in-out">
-				<ul class={`flex gap-8 ${scrolled ? `text-black` : `text-white`}`}>
+			<div class="flex items-center transition-all duration-300 ease-in-out xl:mr-10">
+				<ul class="flex gap-6 font-tenorsans text-black">
 					<li>
 						<a
 							href={null}
-							class="cursor-pointer rounded-2xl px-4 py-[6px] transition hover:bg-black hover:text-white xl:text-lg"
-							>Home</a
+							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm">HOME</a
 						>
 					</li>
 					<li>
 						<a
 							href={null}
-							class="cursor-pointer rounded-2xl px-4 py-[6px] transition hover:bg-black hover:text-white xl:text-lg"
-							>Pricing</a
+							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm"
+							>ABOUT</a
 						>
 					</li>
 					<li>
 						<a
 							href={null}
-							class="cursor-pointer rounded-2xl px-4 py-[6px] transition hover:bg-black hover:text-white xl:text-lg"
-							>Recent Work</a
+							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm"
+							>PRICING</a
+						>
+					</li>
+					<li>
+						<a
+							href={null}
+							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm"
+							>PORTFOLIO</a
 						>
 					</li>
 				</ul>
 			</div>
 			<button
-				class={`rounded-xl border-2 px-4 py-2 transition-all duration-300 ease-in-out ${
-					scrolled
-						? `border-black bg-white text-black hover:bg-black hover:text-white`
-						: `border-white bg-black text-white hover:border-black hover:bg-white hover:text-black`
-				} `}
+				class="flex h-10 w-full bg-gradient-to-tr from-[#eda915] via-tertiary to-secondary p-[2px] transition-colors duration-300 ease-in"
 			>
-				<a href={null} class="">Get Started</a>
+				<a
+					href={null}
+					class="back flex h-full w-full items-center bg-primary px-5 font-tenorsans text-tertiary transition-colors hover:bg-transparent hover:font-semibold hover:text-white xl:text-sm"
+					>AVAILABILITY</a
+				>
 			</button>
 		</div>
 	</nav>

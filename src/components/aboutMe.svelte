@@ -1,16 +1,9 @@
 <script>
-	import aboutImg from '$lib/assets/images/assetImg_1.2_about-bg-section.png';
 </script>
 
 <!-- About Section -->
-<div class="relative flex h-min w-full items-center justify-center p-28">
-	<img
-		src={aboutImg}
-		title=""
-		alt="drink-pouring-background"
-		class="absolute inset-0 -z-10 h-full w-full object-cover"
-	/>
-	<div class="h-min w-3/4 bg-primary p-20">
+<div class="relative flex h-min w-full items-center justify-center bg-primary p-28">
+	<div class="h-min w-3/4 p-20">
 		<h2 class="whitespace-nowrap text-center font-tanaegean text-5xl text-secondary">
 			Get to Know Plus One Content
 		</h2>
