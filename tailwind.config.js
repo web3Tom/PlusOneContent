@@ -18,6 +18,9 @@ module.exports = {
 			},
 			brightness: {
 				25: '.25'
+			},
+			boxShadow: {
+				'top-right': '4px 5px 5px rgba(135, 57, 7, 0.8)'
 			}
 		}
 	}

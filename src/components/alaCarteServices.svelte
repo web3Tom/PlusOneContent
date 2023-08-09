@@ -1,25 +1,11 @@
 <script>
 	import makeUpMirror from '$lib/assets/images/assetImg_3.1_MakeUpMirror.png';
-
-	// Divider SVG
-	let DividerSvg = `
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 156" preserveAspectRatio="none" version="1.0"><defs><clipPath id="a"><path d="M0 1.5h900v153H0zm0 0"/></clipPath></defs><g clip-path="url(#a)"><path fill="#fff" d="M899.129 9.008c0-4.164-3.434-7.52-7.594-7.403-67.355 1.934-69.883 29.508-142.117 29.508-74.856 0-74.856-29.613-149.711-29.613-74.855 0-74.855 29.613-149.71 29.613C375.14 31.113 375.14 1.5 300.284 1.5c-74.851 0-74.851 29.613-149.707 29.613-72.23 0-74.762-27.574-142.113-29.508C4.305 1.488.87 4.844.87 9.008v138.09a7.405 7.405 0 0 0 7.402 7.402h883.454a7.405 7.405 0 0 0 7.402-7.402zm0 0"/></g></svg>`;
 </script>
 
 <!-- Ala Carte Services  Section -->
 <section
 	class="relative min-h-screen w-full flex-col items-center justify-start overflow-hidden bg-primary p-28"
 >
-	<!-- SVG Divider -->
-	<div class="absolute left-0 top-10 flex items-center">
-		<div class="max-h-4 w-[50vw] rotate-180 transform">
-			{@html DividerSvg}
-		</div>
-		<div class="-ml-2 max-h-4 w-[50vw] rotate-180 transform">
-			{@html DividerSvg}
-		</div>
-	</div>
-
 	<!-- main component -->
 	<div class="mb-36 mt-10 flex items-center justify-center gap-x-10">
 		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"

@@ -11,6 +11,17 @@
 <section
 	class="relative min-h-screen w-full flex-col items-center justify-start overflow-hidden bg-primary p-28"
 >
+	<!-- SVG Divider -->
+	<div class="absolute left-0 top-10 flex items-center">
+		<div class="max-h-4 w-[50vw] rotate-180 transform">
+			{@html DividerSvg}
+		</div>
+		<div class="-ml-2 max-h-4 w-[50vw] rotate-180 transform">
+			{@html DividerSvg}
+		</div>
+	</div>
+
+	<!-- main component -->
 	<div class="mb-36 mt-10 flex items-center justify-center gap-x-10">
 		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
 			><path
@@ -123,15 +134,6 @@
 					<span class="-mt-1 text-secondary"> This package is 8 hours, time is set by couple</span>
 				</li>
 			</ul>
-		</div>
-	</div>
-
-	<div class="absolute bottom-10 left-0 flex h-auto items-center">
-		<div class="max-h-6 w-[50vw]">
-			{@html DividerSvg}
-		</div>
-		<div class="-ml-2 max-h-6 w-[50vw]">
-			{@html DividerSvg}
 		</div>
 	</div>
 </section>

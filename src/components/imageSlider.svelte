@@ -7,45 +7,25 @@
 	import img5 from '$lib/assets/images/assetImg_6.14_scrollFeed-drumsTyler.png';
 	import img6 from '$lib/assets/images/assetImg_6.15_scrollFeed-coupleSinging.png';
 
-	function debounce(func, wait) {
-		let timeout;
-		return function (...args) {
-			const context = this;
-			clearTimeout(timeout);
-			timeout = setTimeout(() => func.apply(context, args), wait);
-		};
+	const images = [img1, img2, img3, img4, img5, img6];
+	// Double the array to simulate a loop:
+	const loopedImages = [...images, ...images];
+
+	let slider;
+
+	function resetSlider() {
+		slider.style.animationPlayState = 'paused'; // Pause the animation
+		slider.style.transform = 'translateX(0)'; // Reset the position
+		setTimeout(() => {
+			slider.style.animationPlayState = 'running'; // Restart the animation
+		}, 50); // Small delay to ensure the position has reset
 	}
-
-	let scrollLastPosition = 0;
-
-	let handleScroll = debounce(function () {
-		const slider = document.querySelector('.image-slider');
-
-		// Check if the user is scrolling down or up
-		if (window.scrollY > scrollLastPosition) {
-			// Scrolling down
-			slider.scrollLeft += 30; // Adjust this value if needed
-		} else if (window.scrollY < scrollLastPosition) {
-			// Scrolling up
-			slider.scrollLeft -= 30;
-		}
-
-		// Store the new last position for the next scroll event
-		scrollLastPosition = window.scrollY;
-	}, 30);
-
-	onMount(() => {
-		window.addEventListener('scroll', handleScroll);
-	});
 </script>
 
-<div class="image-slider">
-	<img src={img1} alt="Description 1" />
-	<img src={img2} alt="Description 2" />
-	<img src={img3} alt="Description 3" />
-	<img src={img4} alt="Description 4" />
-	<img src={img5} alt="Description 5" />
-	<img src={img6} alt="Description 6" />
+<div class="image-slider" bind:this={slider} on:animationiteration={resetSlider}>
+	{#each loopedImages as image}
+		<img src={image} alt="Description" />
+	{/each}
 
 	<!-- ... Add more images ... -->
 </div>
@@ -53,12 +33,24 @@
 <style>
 	.image-slider {
 		display: flex;
+		width: full;
+		animation: slide 10s linear infinite; /* Adjust the duration as needed */
 		overflow-x: hidden;
 		scroll-behavior: smooth; /* For smooth scrolling */
-		margin: 0 20%;
+		margin: 0 auto;
 	}
+
+	@keyframes slide {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-50%);
+		} /* Because we've doubled the number of images */
+	}
+
 	.image-slider img {
-		width: 13vw; /* Adjust the width as per requirements */
+		width: 12vw; /* Adjust the width as per requirements */
 		height: auto;
 		margin: 0 50px;
 		border-radius: 15px; /* This gives the rounded edges */
