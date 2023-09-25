@@ -1,10 +1,9 @@
 <script>
-	import aboutImg from '$lib/assets/images/assetImg_1.2_about-bg-section.png';
 	import Icon from '@iconify/svelte';
 
 	// Divider SVG
 	let DividerSvg = `
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 156" preserveAspectRatio="none" version="1.0"><defs><clipPath id="a"><path d="M0 1.5h900v153H0zm0 0"/></clipPath></defs><g clip-path="url(#a)"><path fill="#fff" d="M899.129 9.008c0-4.164-3.434-7.52-7.594-7.403-67.355 1.934-69.883 29.508-142.117 29.508-74.856 0-74.856-29.613-149.711-29.613-74.855 0-74.855 29.613-149.71 29.613C375.14 31.113 375.14 1.5 300.284 1.5c-74.851 0-74.851 29.613-149.707 29.613-72.23 0-74.762-27.574-142.113-29.508C4.305 1.488.87 4.844.87 9.008v138.09a7.405 7.405 0 0 0 7.402 7.402h883.454a7.405 7.405 0 0 0 7.402-7.402zm0 0"/></g></svg>`;
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 156" preserveAspectRatio="none" version="1.0"><defs><clipPath id="a"><path d="M0 1.5h900v153H0zm0 0"/></clipPath></defs><g clip-path="url(#a)"><path fill="#bababa" d="M899.129 9.008c0-4.164-3.434-7.52-7.594-7.403-67.355 1.934-69.883 29.508-142.117 29.508-74.856 0-74.856-29.613-149.711-29.613-74.855 0-74.855 29.613-149.71 29.613C375.14 31.113 375.14 1.5 300.284 1.5c-74.851 0-74.851 29.613-149.707 29.613-72.23 0-74.762-27.574-142.113-29.508C4.305 1.488.87 4.844.87 9.008v138.09a7.405 7.405 0 0 0 7.402 7.402h883.454a7.405 7.405 0 0 0 7.402-7.402zm0 0"/></g></svg>`;
 </script>
 
 <!-- Wedding Packages Section -->
@@ -44,7 +43,7 @@
 	<div class="flex h-auto w-full justify-around">
 		<div class="w-[25%] flex-col items-center justify-start">
 			<div class="mx-auto h-36 w-64 overflow-hidden rounded-full">
-				<img class="h-full w-full object-cover" src={aboutImg} alt="test" />
+				<!-- <img class="h-full w-full object-cover" alt="test" /> -->
 			</div>
 			<h2 class="mb-8 mt-8 text-center font-tenorsans text-2xl font-semibold text-secondary">
 				Get Ready With Me
@@ -86,7 +85,7 @@
 		<!-- Second Col -->
 		<div class="w-[25%] flex-col items-center justify-start">
 			<div class="mx-auto h-36 w-64 overflow-hidden rounded-full">
-				<img class="h-full w-full object-cover" src={aboutImg} alt="test" />
+				<!-- <img class="h-full w-full object-cover" src={aboutImg} alt="test" /> -->
 			</div>
 			<h2 class="mb-8 mt-8 text-center font-tenorsans text-2xl font-semibold text-secondary">
 				Meet Me at the Alter
@@ -112,7 +111,7 @@
 		<!-- Third Col -->
 		<div class="w-[25%] flex-col items-center justify-start">
 			<div class="mx-auto h-36 w-64 overflow-hidden rounded-full">
-				<img class="h-full w-full object-cover" src={aboutImg} alt="test" />
+				<!-- <img class="h-full w-full object-cover" src={aboutImg} alt="test" /> -->
 			</div>
 			<h2 class="mb-8 mt-8 text-center font-tenorsans text-2xl font-semibold text-secondary">
 				The Ultimate Bridesmaid

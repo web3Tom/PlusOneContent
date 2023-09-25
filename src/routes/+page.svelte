@@ -1,5 +1,6 @@
 <script>
-	import heroImg from '$lib/assets/images/assetImg_1.1_hero-backyard-zoom.jpg';
+	import heroImg from '$lib/assets/images/assetImg_1.1_wedding-stock.png';
+	import logo from '$lib/assets/images/assetImg_0.1_navigation-logo.svg';
 	import cameraLogo from '$lib/assets/images/assetImg_1.4_hero-logo-camera.svg';
 	import heartIcon from '$lib/assets/images/assetImg_1.5_hero-heart-icon.svg';
 	import womanCamera from '$lib/assets/images/assetImg_1.6_woman-taking-photo.svg';
@@ -15,41 +16,41 @@
 	<img
 		src={heroImg}
 		title="Bridal detail shot wedding content"
-		alt="Wedding Content creator in New Jersey; bridal shower detail shot. European love affair. Italian bridal theme. Lingerie display."
+		alt="Wedding Content creator in New Jersey; etail shot. European love affair. Italian bridal theme. Lingerie display."
 		style="object-position: center 15%;"
 		class="absolute inset-0 -z-10 h-full w-full object-cover object-bottom brightness-[.65]"
 	/>
-	<main class="mx-auto xl:w-[1200px] xl:pt-44">
+	<main class="mx-auto xl:w-[1400px] xl:pt-44">
 		<img
-			src={cameraLogo}
+			src={logo}
 			alt="Unique section of PlusOneContent Logo"
-			class="mx-auto h-auto xl:w-[8%] xl:pb-6"
+			class="mx-auto h-auto xl:w-[10%] xl:pb-6"
 		/>
-		<h1 class="mx-auto text-center font-tanaegean font-semibold text-primary xl:pb-20 xl:text-6xl">
-			Content You'll Cherish Forever
+		<h1 class="mx-auto text-center font-tanaegean font-semibold text-white xl:pb-16 xl:text-6xl">
+			Content You'll Want to <span class="pl-2 text-white">Live Inside Of</span>
 		</h1>
-		<h2 class="mx-auto text-center font-tanaegean text-primary xl:pb-3 xl:text-2xl">
-			Social Content Creation for Life Changing Events
+		<h2 class="mx-auto text-center font-tanaegean text-white xl:pb-10 xl:text-2xl">
+			Wedding and Event Content Creation for Life's Biggest Moments
 		</h2>
 		<!-- CTA Container -->
 		<button
-			class="mx-auto flex h-10 w-fit transform bg-gradient-to-tr from-[#eda915] via-tertiary to-secondary p-8 shadow-top-right transition-transform duration-300 ease-in hover:translate-y-[-5px] xl:mt-14"
+			class="mx-auto flex h-10 w-fit transform rounded-lg border-2 border-white bg-transparent p-8 px-5 py-2.5 text-center text-sm font-semibold text-white transition-all duration-100 hover:border-gray-900 hover:bg-black hover:text-white focus:outline-none focus:ring-4 focus:ring-primary xl:mt-14"
 		>
 			<a
 				href={null}
-				class="back flex h-full w-full items-center bg-transparent px-5 font-tenorsans font-semibold text-white transition-colors xl:text-base"
-				>See Availability</a
+				class="flex h-full w-full items-center px-5 font-tenorsans font-semibold xl:text-xl"
+				>Inquire Here</a
 			>
 		</button>
-		<div class="mx-auto flex w-auto items-start justify-center xl:mt-6">
-			<p class="mr-2 font-tenorsans font-semibold leading-7 text-white xl:text-[15px]">
+		<div class="mx-auto flex w-auto items-start justify-center xl:mt-4">
+			<p class="mr-2 font-tenorsans font-semibold leading-7 text-white xl:text-sm">
 				Your favorite plus one, guaranteed
 			</p>
 			<img src={heartIcon} class="w-6 align-top" alt="heart-emoji" />
 		</div>
 	</main>
 	<div
-		class="circle-div absolute bottom-0 left-1/2 flex h-24 w-24 -translate-x-1/2 translate-y-1/2 transform justify-start rounded-full bg-primary"
+		class="circle-div absolute bottom-0 left-1/2 flex h-24 w-24 -translate-x-1/2 translate-y-1/2 transform justify-start rounded-full bg-bgp"
 	>
 		<img src={womanCamera} alt="girl-with-camera" class="mx-auto pt-2" />
 	</div>

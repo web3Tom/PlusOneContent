@@ -19,55 +19,43 @@
 </script>
 
 <!-- Navbar -->
-<div
-	class="fixed left-0 top-0 z-10 w-screen bg-primary py-2 transition-all duration-300 ease-in-out"
->
-	<nav class="mx-auto flex content-center justify-between xl:w-[1200px]">
+<div class="fixed left-0 top-0 z-10 w-screen bg-bgp transition-all duration-300 ease-in-out">
+	<nav class="mx-auto flex content-center justify-between font-tenorsans xl:w-11/12">
 		<!-- LOGO -->
-		<div class="">
+		<div class="xl:pb-1 xl:pt-2">
 			<img src={altLogo} alt="PlusOneContent Logo" class="h-16" />
 		</div>
 		<!-- NAV LINKS -->
 		<div class="flex w-auto items-center">
-			<div class="flex items-center transition-all duration-300 ease-in-out xl:mr-10">
-				<ul class="flex gap-6 font-tenorsans text-black">
-					<li>
-						<a
-							href={null}
-							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm">HOME</a
-						>
+			<div class="flex items-center transition-all duration-300 ease-in-out xl:mr-8">
+				<ul class="flex items-end text-txtp xl:gap-6">
+					<li
+						class="border-b-2 border-transparent transition-all duration-100 ease-in-out hover:border-txtp"
+					>
+						<a href={null} class="cursor-pointer px-4 transition xl:text-base">HOME</a>
 					</li>
-					<li>
-						<a
-							href={null}
-							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm"
-							>ABOUT</a
-						>
+					<li
+						class="border-b-2 border-transparent transition-all duration-100 ease-in-out hover:border-txtp"
+					>
+						<a href={null} class="cursor-pointer px-4 transition xl:text-base">ABOUT</a>
 					</li>
-					<li>
-						<a
-							href={null}
-							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm"
-							>PRICING</a
-						>
+					<li
+						class="border-b-2 border-transparent transition-all duration-100 ease-in-out hover:border-txtp"
+					>
+						<a href={null} class="cursor-pointer px-4 transition xl:text-base">PRICING</a>
 					</li>
-					<li>
-						<a
-							href={null}
-							class="cursor-pointer px-4 py-[6px] transition hover:text-tertiary xl:text-sm"
-							>PORTFOLIO</a
-						>
+					<li
+						class="border-b-2 border-transparent transition-all duration-100 ease-in-out hover:border-txtp"
+					>
+						<a href={null} class="cursor-pointer px-4 transition xl:text-base">PORTFOLIO</a>
 					</li>
 				</ul>
 			</div>
 			<button
-				class="flex h-10 w-full bg-gradient-to-tr from-[#eda915] via-tertiary to-secondary p-[2px] transition-colors duration-300 ease-in"
+				class="mb-2 mr-2 flex h-10 w-full rounded-lg border-2 border-black bg-transparent px-5 py-2.5 text-center text-sm font-semibold text-black transition-all duration-100 hover:border-gray-900 hover:bg-black hover:text-white focus:outline-none focus:ring-4 focus:ring-primary"
+				type="button"
 			>
-				<a
-					href={null}
-					class="back flex h-full w-full items-center bg-primary px-5 font-tenorsans text-tertiary transition-colors hover:bg-transparent hover:font-semibold hover:text-white xl:text-sm"
-					>AVAILABILITY</a
-				>
+				<a href={null} class="flex h-full w-full items-center xl:px-2">AVAILABILITY</a>
 			</button>
 		</div>
 	</nav>

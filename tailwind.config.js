@@ -4,9 +4,15 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#F8F0DE',
-				secondary: '#50402f',
-				tertiary: '#bd5f22'
+				// 60-30-10 Rule
+				bgp: '#FFFFFF', // 60%: background
+				bgs: '#bababa',
+				txtp: '#333333',
+				primary: '#F8F0DE', // 20%
+				primaryV: '#d3a130', // 10%
+				secondary: '#427E9B', // 7%: CTA Color: hover state for buttons, active state for nav links, highlighting sections
+				secondaryV: '#002F96', // 3%: CTA Color: hover state for buttons, active state for nav links, highlighting sections
+				tertiary: '#FFD1DC' // Uhh
 			},
 			fontFamily: {
 				tenorsans: ['TenorSans', 'sans-serif'],

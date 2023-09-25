@@ -2,9 +2,9 @@
 	import testimonialImg from '$lib/assets/images/assetImg_4.1_testimonial-Bri.png';
 </script>
 
-<section class="flex h-[66vh] w-screen items-center justify-center">
+<section class="flex w-screen items-center justify-center bg-bgs xl:h-[66vh]">
 	<!-- Block Quote -->
-	<div class=" flex h-auto max-w-4xl items-center justify-center bg-primary px-10 py-10">
+	<div class=" flex items-center justify-center bg-white xl:h-auto xl:max-w-4xl xl:px-10 xl:py-10">
 		<blockquote class="font-opensans text-2xl font-semibold italic text-slate-800">
 			<svg
 				aria-hidden="true"
