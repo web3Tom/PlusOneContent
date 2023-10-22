@@ -27,6 +27,15 @@ module.exports = {
 			},
 			boxShadow: {
 				'top-right': '4px 5px 5px rgba(135, 57, 7, 0.8)'
+			},
+			screens: {
+				xs: '375px', // Extra small devices
+				sm: '640px', // Small devices (tablets)
+				md: '768px', // Medium devices (some desktops)
+				lg: '1024px', // Large devices (large desktops)
+				xl: '1280px', // Extra large devices (larger desktops)
+				'2xl': '1600px' // 2x Extra large devices (very large desktops)
+				// ... you can add more breakpoints if needed
 			}
 		}
 	}

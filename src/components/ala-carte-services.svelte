@@ -4,10 +4,10 @@
 
 <!-- Ala Carte Services  Section -->
 <section
-	class="relative min-h-screen w-full flex-col items-center justify-start overflow-hidden bg-primary p-28"
+	class="relative min-h-screen w-full flex-col items-center justify-start overflow-hidden bg-white p-28"
 >
 	<!-- main component -->
-	<div class="mb-36 mt-10 flex items-center justify-center gap-x-10">
+	<!-- <div class="mb-36 mt-10 flex items-center justify-center gap-x-10">
 		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
 			><path
 				fill="currentColor"
@@ -23,8 +23,13 @@
 				/></g
 			></svg
 		>
-	</div>
+	</div> -->
 
+	<h2
+		class="custom-underline mt-24 translate-x-0 text-center font-tanaegean text-txtp underline-offset-2 opacity-100 transition duration-1000 xl:mb-10 xl:pb-6 xl:text-2xl"
+	>
+		A La Carte Services
+	</h2>
 	<!-- Triple Column Services -->
 	<div class="flex h-auto w-full justify-around">
 		<div class="w-[25%] flex-col items-center justify-start">
@@ -68,3 +73,16 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.custom-underline::after {
+		content: '';
+		display: block;
+		height: 3px; /* thickness of the underline */
+		width: 10%;
+		background-color: currentColor; /* color of the underline, currentColor will use the text color */
+		margin-top: 10px; /* space between the text and the underline */
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
