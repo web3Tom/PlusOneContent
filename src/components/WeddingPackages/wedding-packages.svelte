@@ -41,7 +41,7 @@
 	</div> -->
 	<div class="mx-auto max-w-7xl xl:pb-32 xl:pt-20">
 		<h2
-			class="custom-underline translate-x-0 text-center font-tanaegean text-txtp underline-offset-2 opacity-100 transition duration-1000 xl:mb-16 xl:text-2xl"
+			class="custom-underline translate-x-0 text-center font-tanaegean text-txtp underline-offset-2 opacity-100 transition duration-1000 xl:mb-16 xl:text-3xl"
 		>
 			Wedding Packages
 		</h2>

@@ -24,7 +24,7 @@
 <!-- About Section -->
 <div class="relative h-auto w-full justify-center bg-bgp xl:pb-44 xl:pt-14">
 	<h2
-		class="custom-underline translate-x-0 text-center font-tanaegean text-txtp underline-offset-2 opacity-100 transition duration-1000 xl:mb-10 xl:pb-6 xl:text-2xl"
+		class="custom-underline translate-x-0 text-center font-tanaegean text-txtp underline-offset-2 opacity-100 transition duration-1000 xl:mb-10 xl:pb-6 xl:text-3xl"
 	>
 		Get to Know Your Favorite Plus One
 	</h2>

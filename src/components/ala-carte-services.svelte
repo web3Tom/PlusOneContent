@@ -6,34 +6,15 @@
 <section
 	class="relative min-h-screen w-full flex-col items-center justify-start overflow-hidden bg-white p-28"
 >
-	<!-- main component -->
-	<!-- <div class="mb-36 mt-10 flex items-center justify-center gap-x-10">
-		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
-			><path
-				fill="currentColor"
-				d="m9 4l2.5 5.5L17 12l-5.5 2.5L9 20l-2.5-5.5L1 12l5.5-2.5L9 4m0 4.83L8 11l-2.17 1L8 13l1 2.17L10 13l2.17-1L10 11L9 8.83M19 9l-1.26-2.74L15 5l2.74-1.25L19 1l1.25 2.75L23 5l-2.75 1.26L19 9m0 14l-1.26-2.74L15 19l2.74-1.25L19 15l1.25 2.75L23 19l-2.75 1.26L19 23Z"
-			/></svg
-		>
-		<h1 class="font-tanaegean text-5xl text-black">A La Carte Services</h1>
-		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
-			><g transform="translate(24 0) scale(-1 1)"
-				><path
-					fill="currentColor"
-					d="m9 4l2.5 5.5L17 12l-5.5 2.5L9 20l-2.5-5.5L1 12l5.5-2.5L9 4m0 4.83L8 11l-2.17 1L8 13l1 2.17L10 13l2.17-1L10 11L9 8.83M19 9l-1.26-2.74L15 5l2.74-1.25L19 1l1.25 2.75L23 5l-2.75 1.26L19 9m0 14l-1.26-2.74L15 19l2.74-1.25L19 15l1.25 2.75L23 19l-2.75 1.26L19 23Z"
-				/></g
-			></svg
-		>
-	</div> -->
-
 	<h2
-		class="custom-underline mt-24 translate-x-0 text-center font-tanaegean text-txtp underline-offset-2 opacity-100 transition duration-1000 xl:mb-10 xl:pb-6 xl:text-2xl"
+		class="custom-underline mb-10 mt-24 translate-x-0 pb-6 text-center font-tanaegean text-2xl text-txtp underline-offset-2 opacity-100"
 	>
 		A La Carte Services
 	</h2>
 	<!-- Triple Column Services -->
-	<div class="flex h-auto w-full justify-around">
-		<div class="w-[25%] flex-col items-center justify-start">
-			<div class="mx-auto h-44 w-64 overflow-hidden rounded-full">
+	<div class="max-w-6xl flex-col items-center justify-center">
+		<div class="flex items-center justify-start">
+			<div class="h-44 w-64">
 				<img class="h-full w-full object-cover" src={makeUpMirror} alt="test" />
 			</div>
 			<h2 class="mb-8 mt-8 text-center font-tenorsans text-2xl font-semibold text-black">
